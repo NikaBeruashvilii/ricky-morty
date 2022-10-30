@@ -1,0 +1,11 @@
+<section class="main-section">
+    <article class="heading">
+        <h1>See All Characters & AlterEgos</h1>
+    </article>
+    <article class="d-flex flex-wrap justify-content-center characters">
+        <app-ricky-morty-cards
+        *ngFor="let item of allCharactersList"
+        [charactersItem]="item"
+        ></app-ricky-morty-cards>
+    </article>
+</section>

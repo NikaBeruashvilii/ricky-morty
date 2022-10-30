@@ -1,0 +1,11 @@
+<section class="section">
+  <div *ngFor="let item of innerList" class="card mb-3 div-img">
+    <img [src]="item.image" class="card-img-top image" alt="..." />
+    <div class="card-body">
+      <p class="card-title"><b>Name: </b>{{item.name}}</p>
+      <p class="card-title"><b>Gender: </b>{{item.gender}}</p>
+      <p class="card-title"><b>location: </b>{{item.location.name}}</p>
+      <p class="card-title"><b>Status:</b> {{item.status}}</p>
+    </div>
+  </div>
+</section>

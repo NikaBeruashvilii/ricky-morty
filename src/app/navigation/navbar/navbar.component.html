@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation">
+  <div class="container-fluid">
+    <img routerLink="/" src="https://64.media.tumblr.com/8d15331fcd50dde4def37ecdab9ef768/46ab61838c3d6cc1-23/s1280x1920/2f1c04c17f08162e7b3d9e735a97a752edd82bfc.jpg" class="img" alt="">
+    <a class="navbar-brand home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+      routerLink="/">Home</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link first" routerLinkActive="active" routerLink="/characters">Characters / Alter Egos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/characters/?gender=female">Female</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/characters/?gender=male">Male</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/characters/?gender=genderless">GenderLess</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/characters/?gender=unknown">Unknown</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

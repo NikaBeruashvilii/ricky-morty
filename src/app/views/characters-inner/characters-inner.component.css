@@ -1,0 +1,20 @@
+.card {
+    margin:20px;
+    width: 400px;
+ 
+}
+.section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background: #62b8b85e;
+    padding-top: 50px;
+}
+.card img {
+    height: 250px;
+    object-fit: inherit;
+    width: 100%;
+}
+.div-img {
+    background: #e6e6e6;
+}

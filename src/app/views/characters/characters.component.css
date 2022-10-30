@@ -1,0 +1,16 @@
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characters {
+  /* margin-top: 20px; */
+  background: #62b8b85e;
+}
+.heading {
+  margin-top: 15px;
+}
+.main-section {
+  padding-top: 50px;
+}
